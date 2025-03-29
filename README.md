@@ -4,9 +4,10 @@
 ## Para rodar a parte do servidor:
 ```bash
   #subir os containers laravel e postgre
-  cd backend
-  docker compose -up 
-
+   cd backend
+   docker compose up 
+  #executar as migrations no banco
+   docker exec laravelapp php artisan migrate
 ```
 
 ## Para rodar a aplicação na parte do cliente web:
