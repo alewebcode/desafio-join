@@ -5,7 +5,7 @@
 ```bash
   #subir os containers laravel e postgre
    cd backend
-   docker compose up 
+   docker compose up -d
   #executar as migrations no banco
    docker exec laravelapp php artisan migrate
 ```
