@@ -3,7 +3,8 @@
 
 ## Backend:
 ```bash
-  #Adicionar no arquivo .env  as configurações do banco
+  #Adicionar no arquivo .env  as configurações do banco.
+  #Para facilitar no repositório do backend existe o arquivo.env.example,é só substituir por essa parte abaixo.
   DB_CONNECTION=pgsql
   DB_HOST=postgres
   DB_PORT=5432
