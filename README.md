@@ -18,5 +18,7 @@
   
   #Iniciar a aplicação
   npm run dev
-```
+
 Vá para http://localhost:3000 para ver o frontend.
+```
+
