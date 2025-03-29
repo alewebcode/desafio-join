@@ -1,7 +1,7 @@
 # :desktop_computer: Instalação e Execução
 
 
-## Para rodar a parte do servidor:
+## Backend:
 ```bash
   #subir os containers laravel e postgre
    cd backend
@@ -10,7 +10,7 @@
    docker exec laravelapp php artisan migrate
 ```
 
-## Para rodar a aplicação na parte do cliente web:
+## Frontend:
 ```bash
   #Instalar dependências e rodar no cliente
   cd frontend
