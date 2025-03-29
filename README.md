@@ -3,15 +3,15 @@
 
 ## Para rodar a parte do servidor:
 ```bash
-  #Navegar e baixar as depêndencias
+  #subir os containers laravel e postgre
   cd backend
-  docker compose -up para subir os containers laravel e postgre
+  docker compose -up 
 
 ```
 
 ## Para rodar a aplicação na parte do cliente web:
 ```bash
-  #Navegar e baixar as depêndencias web
+  #Instalar dependências e rodar no cliente
   cd frontend
   npm install
   
